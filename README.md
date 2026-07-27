@@ -13,7 +13,7 @@ The repository systematically builds out technical and non-technical architectur
 
 ### 2. Issue 2: Optimizing the Bias-Variance Trade-off
 * **Technical Architecture:** Quantifies prediction error boundaries through formal structural decompositions:
-  \[\text{Total Error} = \text{Bias}^2 + \text{Variance} + \text{Irreducible Noise}\]
+  $\[\text{Total Error} = \text{Bias}^2 + \text{Variance} + \text{Irreducible Noise}\]$
 * **Generalisation Overhaul:** Implements regularization curves, early stopping parameters, and structural pruning metrics to minimize validation variance without inflating training bias.
 * **Non-Technical Mapping:** Translates statistical bias (underfitting market regimes) and variance (overfitting historical noise) into direct risk-adjusted performance outcomes.
 
